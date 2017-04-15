@@ -19,4 +19,4 @@ test:
             timeout: 360
         # build a release .apk and save it to artifacts with
         - ./gradlew assembleRelease
-        - cp -r CountDownTimer/build/outputs $CIRCLE_ARTIFACTS
+        - cp -r CountDownTimer/app/build/outputs $CIRCLE_ARTIFACTS
